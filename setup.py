@@ -8,7 +8,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='countries-from-coordinates',
+    name='countries_from_coordinates',
     version='0.0.1',
     description='A simple package to read coordinates files and transform them to countries',
     long_description=long_description,
